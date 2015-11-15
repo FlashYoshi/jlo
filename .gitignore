@@ -2,6 +2,11 @@
 .project
 .gradle
 .settings
+.idea
+*.iml
+classes/
+libs/
+tmp/
 api
 bin
 src/be/kuleuven/cs/distrinet/jlo/input/*.java
@@ -9,3 +14,4 @@ dist
 lib
 publish
 /bin/
+ChameleonSupport/
