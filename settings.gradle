@@ -1,3 +1,7 @@
+include 'chameleon'
 include 'ChameleonSupport'
-
+include 'jnome'
+project(':chameleon').projectDir = file('../neio/neio/chameleon')
+project(':ChameleonSupport').projectDir = file('../neio/neio/ChameleonSupport')
+project(':jnome').projectDir = file('../neio/neio/jnome')
 rootProject.name = 'jlo'
